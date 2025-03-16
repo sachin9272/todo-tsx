@@ -1,4 +1,4 @@
-import TodoList from "./components/todoList"
+import TodoList from "./components/TodoList"
 import { FaPen, FaClipboardList } from "react-icons/fa"
 function App() {
 

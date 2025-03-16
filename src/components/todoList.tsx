@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TodoTypes from "../todo";
 import TodoService from "../TodoService";
+import TodoForm from "./TodoForm";
 const TodoList = () => {
   const [todos, setTodos] = useState<TodoTypes[]>(TodoService.getTodos());
   const [editedTodoId, setEditedTodoId] = useState<number | null>(null);
@@ -40,8 +41,10 @@ const TodoList = () => {
   };
 
   return (
-    <div className=""> 
-      <div className=""></div>
+    <div className="todoContainer"> 
+      <div className="">
+        <TodoForm setTodos = {setTodos}/>
+      </div>
       {todos.map((todo) => (
         <div key={todo.id} className="">
           {editedTodoId === todo.id ? (
