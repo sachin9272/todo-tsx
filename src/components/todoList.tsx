@@ -48,12 +48,12 @@ const TodoList = () => {
   };
 
   return (
-    <div className="todoContainer"> 
+    <div className="max-w-6/12"> 
       <div className="">
         <TodoForm setTodos = {setTodos}/>
       </div>
       {todos.map((todo) => (
-        <div key={todo.id} className="">
+        <div key={todo.id} className="flex flex-wrap">
           {editedTodoId === todo.id ? (
             <div className="editedText">
               <input

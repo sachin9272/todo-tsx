@@ -1,6 +1,8 @@
 import React, {Dispatch, SetStateAction, useState} from 'react'
 import TodoService from '../TodoService'
 import TodoTypes from '../todo'
+import { RiAddLine } from "react-icons/ri";
+
 
 interface PropTypes{
     setTodos: Dispatch<SetStateAction <TodoTypes[]>>
@@ -22,7 +24,8 @@ const TodoForm:React.FC<PropTypes> = ({setTodos}) => {
       autoFocus = {true}
       placeholder='Add a task'
       />
-      <button onClick={handleAddTodo}>Add Todo</button>
+      <button onClick={handleAddTodo}> <RiAddLine />
+      Add Todo</button>
     </div>
   )
 }
