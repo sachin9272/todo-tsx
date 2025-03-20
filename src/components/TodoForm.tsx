@@ -18,13 +18,14 @@ const TodoForm:React.FC<PropTypes> = ({setTodos}) => {
         }
     }
   return (
-    <div className='inputForm'>
+    <div className='flex mt-2 items-center justify-center gap-5'>
       <input type="text" value={newTodoText} 
       onChange={(e)=>setNewTodoText(e.target.value)}
-      autoFocus = {true}
+      autoFocus = {false}
       placeholder='Add a task'
+      className='p-2 border-2 border-gray-400 rounded-md '
       />
-      <button onClick={handleAddTodo}> <RiAddLine />
+      <button onClick={handleAddTodo} className='flex bg-blue-600 rounded p-2 text-white'> <RiAddLine />
       Add Todo</button>
     </div>
   )
