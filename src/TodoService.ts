@@ -12,8 +12,8 @@ const TodoService = {
     //Adding Todos
     addTodos: (text:string): TodoTypes => {
         const todos = TodoService.getTodos();
-        const newTodo: TodoTypes = {id: todos.length + 1, text, completed: false};
-        const updateTodos = [...todos, newTodo];
+        const newTodo: TodoTypes = {id: Date.now(), text, completed: false};
+        const updateTodos = [newTodo, ...todos];
         localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updateTodos));
         return newTodo;
     },

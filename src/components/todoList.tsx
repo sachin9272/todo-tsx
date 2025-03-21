@@ -46,11 +46,11 @@ const TodoList = () => {
   };
 
   return (
-    <div className="flex align-center flex-col p-10">
-      <div className="max-w-full">
+    <div className="flex align-center flex-col p-10 w-full">
+      <div className="w-full">
         <TodoForm setTodos={setTodos} />
       </div>
-      <div className="max-w-full flex justify-center items-center flex-wrap gap-2 mt-5">
+      <div className="w-full flex justify-center items-center flex-wrap gap-2 mt-5">
       
         {todos.map((todo) => (
           <div
@@ -60,33 +60,33 @@ const TodoList = () => {
             {editedTodoId === todo.id ? (
               <div className="flex gap-10  w-full items-center justify-between">
                 <div className="flex gap-8">
-                  <input
-                    type="text"
+                  <textarea
                     value={editedTodoText}
                     onChange={(e) => setEditedTodoText(e.target.value)}
                     autoFocus={true}
+                    rows={3}
                   />
                   <div className="flex gap-2">
                     <button onClick={() => handleEditSave(todo.id)}>
-                      <SiTicktick className="text-green-500" />
+                      <SiTicktick className="text-green-500 text-2xl" />
                     </button>
                     <button onClick={handleEditCancel}>
-                      <ImCross className="text-red-500" />
+                      <ImCross className="text-red-500 text-2xl" />
                     </button>
                   </div>
                 </div>
               </div>
             ) : (
-              <div className="flex  items-center justify-between gap-10">
-                <div className="flex flex-wrap w-full">
-                  <span>{todo.text}</span>
+              <div className="flex overflow-hidden break-all items-center w-full justify-between gap-10">
+                <div className="flex flex-wrap">
+                  <div className="text-md break-words whitespace-pre-wrap">{todo.text}</div>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex justify-end gap-2">
                   <button onClick={() => handleEditStart(todo.id, todo.text)}>
-                    <FiEdit className="text-green-500" />
+                    <FiEdit className="text-green-500 text-2xl" />
                   </button>
                   <button onClick={() => handleDeleteTodo(todo.id)}>
-                    <MdDelete className="text-red-500" />
+                    <MdDelete className="text-red-500 text-2xl" />
                   </button>
                 </div>
               </div>
