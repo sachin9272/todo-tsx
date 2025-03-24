@@ -31,4 +31,24 @@ This is a simple Todo application built using TypeScript. It allows users to add
 4. Start the development server:
    ```sh
    npm run dev
+   
+## Usage
 
+1. Open the app in your browser (if running locally, usually at `http://localhost:3000`).
+2. Add tasks using the input field.
+3. Click on a task to mark it as complete.
+4. Edit tasks 
+5. Delete tasks as needed.
+
+## Screenshot
+
+<img width="700" height="800" alt="Screenshot 2025-03-23 234514.png" src="https://github.com/user-attachments/assets/6518b6ec-ea20-4e3e-968a-ce21f1911631" />
+<img alt="Screenshot 2025-03-23 234514.png" src="https://github.com/user-attachments/assets/5e852974-c8d0-4240-b937-4492385ff3f6" />
+
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and create a pull request.
+
+## Deployment
+Use GitHub Pages for deployment.
