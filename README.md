@@ -41,9 +41,10 @@ This is a simple Todo application built using TypeScript. It allows users to add
 5. Delete tasks as needed.
 
 ## Screenshot
+![Screenshot 2025-03-25 211914](https://github.com/user-attachments/assets/3648736e-9e5b-423f-ad26-b6015686aca9)
 
-<img width="700" height="800" alt="Screenshot 2025-03-23 234514.png" src="https://github.com/user-attachments/assets/6518b6ec-ea20-4e3e-968a-ce21f1911631" />
 <img alt="Screenshot 2025-03-23 234514.png" src="https://github.com/user-attachments/assets/5e852974-c8d0-4240-b937-4492385ff3f6" />
+
 
 
 ## Contributing
