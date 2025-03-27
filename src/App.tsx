@@ -10,7 +10,7 @@ function App() {
         <div className="flex items-center min-w-xs overflow-y-auto md:bg-white bg-white/30 h-auto w-full flex-col md:w-full md:max-w-xl border-2 border-black border-double rounded-lg">
           <div className="flex items-center mt-8">
             {/* <FaPen className="text-3xl font-bold"/> */}
-            <LuListTodo className="text-[#0d7dad] text-5xl" />
+            <LuListTodo className="text-[#129ad4] text-5xl" />
             <h1 className="text-5xl font-bold bg-gradient-to-r from-[#0344f8] via-[#0c9f89] to-[#0d7dad] text-transparent bg-clip-text font-[Noto Sans]">
               Todo App
             </h1>
