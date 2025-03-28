@@ -34,7 +34,7 @@ This is a simple Todo application built using TypeScript. It allows users to add
    
 ## Usage
 
-1. Open the app in your browser (if running locally, usually at `http://localhost:3000`).
+1. Open the app in your browser (if running locally, usually at `http://localhost:5173`).
 2. Add tasks using the input field.
 3. Click on a task to mark it as complete.
 4. Edit tasks 
