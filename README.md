@@ -1,4 +1,4 @@
-# Todo App
+# Todo App 📋
 
 This is a simple Todo application built using TypeScript. It allows users to add, edit, delete, and mark tasks as complete.
 
