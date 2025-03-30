@@ -2,7 +2,7 @@
 
 This is a simple Todo application built using TypeScript. It allows users to add, edit, delete, and mark tasks as complete.
 
-## Features
+## Features 📝
 
 - Add new tasks
 - Edit existing tasks
@@ -10,7 +10,7 @@ This is a simple Todo application built using TypeScript. It allows users to add
 - Mark tasks as complete
 - Persist tasks using local storage
 
-## Technologies Used
+## Technologies Used 🚀
 
 - TypeScript
 - React
@@ -24,7 +24,7 @@ This is a simple Todo application built using TypeScript. It allows users to add
 
 2. Navigate to the project directory:
    ```sh
-   cd typescript todo
+   cd todo-tsx
 3. Install dependencies:
    ```sh
    npm install
@@ -40,7 +40,7 @@ This is a simple Todo application built using TypeScript. It allows users to add
 4. Edit tasks 
 5. Delete tasks as needed.
 
-## Screenshot
+## Screenshot 📸
 ![Screenshot 2025-03-25 211914](https://github.com/user-attachments/assets/3648736e-9e5b-423f-ad26-b6015686aca9)
 
 <img alt="Screenshot 2025-03-23 234514.png" src="https://github.com/user-attachments/assets/5e852974-c8d0-4240-b937-4492385ff3f6" />
