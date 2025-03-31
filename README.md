@@ -16,7 +16,7 @@ This is a simple Todo application built using TypeScript. It allows users to add
 - React
 - Tailwind CSS
 
-## Installation
+## Installation ⚒️
 
 1. Clone the repository:
    ```sh
@@ -32,7 +32,7 @@ This is a simple Todo application built using TypeScript. It allows users to add
    ```sh
    npm run dev
    
-## Usage
+## Usage 〽️
 
 1. Open the app in your browser (if running locally, usually at `http://localhost:5173`).
 2. Add tasks using the input field.
@@ -47,9 +47,9 @@ This is a simple Todo application built using TypeScript. It allows users to add
 
 
 
-## Contributing
+## Contributing 🤝
 
 If you'd like to contribute, please fork the repository and create a pull request.
 
-## Deployment
+## Deployment 👨‍💻
 Use GitHub Pages for deployment.
